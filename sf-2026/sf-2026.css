@@ -127,10 +127,16 @@ a:focus {
     color: #ffd1dc;
     text-shadow: 0 0 3px rgba(255, 107, 147, 0.4);
     font-family: var(--font-body);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 1rem;
+}
+
+.hero-description a {
+    color: #ba55d3;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.hero-description a:hover {
+    color: #da70d6;
 }
 
 .header-cat {
