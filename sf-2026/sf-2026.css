@@ -148,18 +148,18 @@ a:focus {
 /* ===== CALL TO ACTION BUTTON ===== */
 .cta-button {
     display: inline-block;
-    background: linear-gradient(135deg, #ff6b93 0%, #ba55d3 100%);
+    background: linear-gradient(135deg, #8a2be2 0%, #9370db 100%);
     color: #ffffff !important;
     padding: calc(var(--spacing-lg) + 2px) calc(var(--spacing-xl) + 8px);
     font-size: var(--font-size-xl);
     font-weight: 700;
     font-family: var(--font-header);
     text-decoration: none;
-    border: 1px solid #ff1493;
+    border: 1px solid #8a2be2;
     border-radius: var(--radius-md);
     box-shadow:
-        0 4px 12px rgba(255, 107, 147, 0.3),
-        0 0 20px rgba(186, 85, 211, 0.2),
+        0 4px 12px rgba(138, 43, 226, 0.3),
+        0 0 20px rgba(138, 43, 226, 0.2),
         inset 0 1px 0 rgba(255, 255, 255, 0.2);
     transition: all var(--transition-medium);
     text-transform: uppercase;
@@ -170,14 +170,14 @@ a:focus {
 
 .cta-button:hover,
 .cta-button:focus {
-    background: linear-gradient(135deg, #ff8bb3 0%, #da70d6 100%);
+    background: linear-gradient(135deg, #9370db 0%, #ba9cd9 100%);
     color: #ffffff !important;
     transform: translateY(-3px);
     box-shadow:
-        0 6px 16px rgba(255, 107, 147, 0.4),
-        0 0 30px rgba(186, 85, 211, 0.3),
+        0 6px 16px rgba(138, 43, 226, 0.4),
+        0 0 30px rgba(147, 112, 219, 0.3),
         inset 0 1px 0 rgba(255, 255, 255, 0.3);
-    border-color: #ff6b93;
+    border-color: #9370db;
 }
 
 .cta-button:active {
@@ -1057,6 +1057,16 @@ a:focus {
     gap: 2rem;
     align-items: center;
     justify-items: center;
+}
+
+.grid-sponsor .card-md:has(svg) {
+    padding: var(--spacing-sm);
+}
+
+.grid-sponsor svg {
+    display: block;
+    width: 100%;
+    height: auto;
 }
 
 .sponsor-link {
